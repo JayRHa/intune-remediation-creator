@@ -10,7 +10,7 @@ import requests
 
 GITHUB_API_BASE = "https://api.github.com"
 DEFAULT_OWNER = "JayRHa"
-DEFAULT_REPO = "EndpointAnalyticsRemediationScripts"
+DEFAULT_REPO = "intune-remediation-scripts"
 DEFAULT_REF = "main"
 REQUEST_TIMEOUT = 30
 
