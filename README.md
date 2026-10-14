@@ -1,20 +1,56 @@
 <!-- jr-brand:start -->
-<div align="center">
+<p align="center">
   <a href="https://jannikreinhard.com/">
-    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — Driving AI with passion" width="100%">
+    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — I help enterprises ship secure AI agents" width="100%">
   </a>
-  <h1>Remediation Creator</h1>
-  <p><strong>Tool for creating and managing Microsoft Intune Proactive Remediation script packages.</strong></p>
-  <p>
-  <a href="https://jannikreinhard.com/"><img src="https://img.shields.io/badge/Website-146CDD?style=flat-square&amp;logo=wordpress&amp;logoColor=white" alt="Website"></a>
-  <a href="https://github.com/JayRHa"><img src="https://img.shields.io/badge/GitHub-081427?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/jannik-r/"><img src="https://img.shields.io/badge/LinkedIn-0795FF?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/jannik_reinhard"><img src="https://img.shields.io/badge/X-081427?style=flat-square&amp;logo=x&amp;logoColor=white" alt="X"></a>
-  <a href="https://www.youtube.com/@jannikreinhard"><img src="https://img.shields.io/badge/YouTube-146CDD?style=flat-square&amp;logo=youtube&amp;logoColor=white" alt="YouTube"></a>
-  </p>
-  <p><sub>Driving AI with passion · Microsoft Foundry · Intune · Azure</sub></p>
-</div>
+</p>
+<p align="center">
+  <a href="https://jannikreinhard.com/">Website</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a> ·
+  <a href="https://www.youtube.com/@jannikreinhard">YouTube</a>
+</p>
 <!-- jr-brand:end -->
+
+# Intune remediation creator
+
+**Type:** Tool or application · **Status:** Community project
+
+## Overview
+
+Tool for creating and managing Microsoft Intune Proactive Remediation script packages.
+
+<a id="quick-start-recommended"></a>
+
+## Quickstart
+
+Because many macOS Python installs are "externally managed" (PEP 668), use a virtual environment:
+
+```bash
+cd /path/to/RemediationCreator
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Create secrets file:
+
+```bash
+cp .streamlit/secrets.toml.example .streamlit/secrets.toml
+```
+
+Run app:
+
+```bash
+python -m streamlit run app.py
+```
+
+Open:
+
+```text
+http://localhost:8501
+```
 
 ## Why This Project
 
@@ -55,7 +91,7 @@ Tabs in the app:
 
 ### `Find Scripts`
 
-- Searches `JayRHa/EndpointAnalyticsRemediationScripts` via GitHub API
+- Searches `JayRHa/intune-remediation-scripts` via GitHub API
 - Shows scored matches (folder + file relevance)
 - `Select` saves a project for review
 
@@ -96,36 +132,6 @@ Tabs in the app:
 - `azure-identity==1.25.2`
 - `openai==2.21.0`
 - `requests==2.32.5`
-
-## Quick start (recommended)
-
-Because many macOS Python installs are "externally managed" (PEP 668), use a virtual environment:
-
-```bash
-cd /path/to/RemediationCreator
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-Create secrets file:
-
-```bash
-cp .streamlit/secrets.toml.example .streamlit/secrets.toml
-```
-
-Run app:
-
-```bash
-python -m streamlit run app.py
-```
-
-Open:
-
-```text
-http://localhost:8501
-```
 
 ## Configuration
 
@@ -212,13 +218,7 @@ run.ps1
 Apache 2.0
 
 <!-- jr-brand-footer:start -->
-
 ---
 
-<div align="center">
-  <p><sub>Built and maintained by <a href="https://jannikreinhard.com/">Jannik Reinhard</a> · Microsoft MVP for Security and AI Platform.</sub></p>
-  <p><a href="https://www.buymeacoffee.com/jannikreinf">Support the open-source work</a></p>
-  <p><strong>Stay healthy, Cheers Jannik</strong></p>
-</div>
-
+[Articles and guides](https://jannikreinhard.com/) · [Repository index](https://github.com/JayRHa/.github/blob/main/REPOSITORIES.md)
 <!-- jr-brand-footer:end -->

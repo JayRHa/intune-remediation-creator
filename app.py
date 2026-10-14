@@ -497,7 +497,7 @@ with col_a:
 
     with tab_community:
         st.subheader("Find matching scripts from community repository")
-        st.caption("Searches JayRHa/EndpointAnalyticsRemediationScripts via GitHub API.")
+        st.caption("Searches JayRHa/intune-remediation-scripts via GitHub API.")
 
         selected_project = st.session_state.selected_community_project
         if isinstance(selected_project, dict) and selected_project.get("name"):
